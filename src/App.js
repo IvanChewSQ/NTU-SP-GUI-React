@@ -6,7 +6,7 @@ import { Sidebar } from './components';
 import { Dashboard, DataAnalytics, Help, Housekeeping, MainMenu, MaterialTest, PDCTest } from './pages';
 import './App.css';
 
-// import { useStateContext } from './contexts/ContextProvider';
+//import { useStateContext } from './contexts/ContextProvider';
 
 const App = () => {
   const { activeMenu } = true; //useStateContext();

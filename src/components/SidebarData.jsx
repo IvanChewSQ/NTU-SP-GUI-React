@@ -11,36 +11,36 @@ export const SidebarData = [
   {
     title: "Main Menu",
     icon:<HomeSharpIcon />,
-    page: "/MainMenu"
+    path: "/"
   },
   {
     title: "Dashboard",
     icon:<WidgetsSharpIcon />,
-    page: "/Dashboard"
+    path: "/dashboard"
   },
   {
     title: "Data Analytics",
     icon:<AssessmentSharpIcon />,
-    page: "/DataAnalytics"
+    path: "/dataAnalytics"
   },
   {
     title: "PDC Test",
     icon:<UsbSharpIcon />,
-    page: "/MainMenu"
+    path: "/pdcTest"
   },
   {
     title: "Material Test",
     icon:<HubSharpIcon />,
-    page: "/PDCTest"
+    path: "/materialTest"
   },
   {
     title: "House Keeping",
     icon:<StorageSharpIcon />,
-    page: "/Housekeeping"
+    path: "/housekeeping"
   },
   {
     title: "Help",
     icon:<InfoSharpIcon />,
-    page: "/Help"
+    path: "/help"
   }
 ]

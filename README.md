@@ -1,23 +1,50 @@
 # NTU-SP GUI Project (REACT)
-
-
+React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. <br>
+This repo guides you on the setting up of the environment.
 
 
 ## Getting Started with Create React App
+### To-do
+- Set up compatible environment files.
+- Set up minimum environment files.
+- Running of program.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Set Up
+```sh
+   # Clone GitHub repo to terminal
+   git clone https://github.com/IvanChewSQ/NTU-SP-GUI-React.git
+   cd react_gui
 
-In the project directory, you can run:
+   # Install python libraries
+   pip install -r requirements.txt
+   ```
 
+Updating of program requirements (only perform when there are new updates to the program):
+```sh
+   # Clone GitHub repo
+   pip freeze > requirements.txt
+   ```
+
+
+## Start Up
 ### `npm start`
-
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+
+## Clean up
+- gitignore files add using this [https://github.com/github/gitignore/blob/main/Python.gitignore](https://github.com/IvanChewSQ/NTU-SP-GUI-React/blob/main/.gitignore)
+
+
+
+
+
+
+
+## OTHERS (for References)
 
 ### `npm test`
 
@@ -73,3 +100,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

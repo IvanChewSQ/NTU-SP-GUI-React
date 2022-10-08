@@ -20,12 +20,6 @@ This repo guides you on the setting up of the environment.
    pip install -r requirements.txt
    ```
 
-Updating of program requirements (only perform when there are new updates to the program):
-```sh
-   # Clone GitHub repo
-   pip freeze > requirements.txt
-   ```
-
 
 ## Start Up
 ### `npm start`
@@ -40,11 +34,32 @@ You may also see any lint errors in the console.
 
 
 
+<br><br><br><br><br>
 
 
 
+## OTHERS (for Developer References)
 
-## OTHERS (for References)
+### Check outdated libraries version:
+``` sh
+   # run on terminal
+   npm outdated
+   ```
+
+### Update library versions:
+``` sh
+   # if there are more than one libraries to be updated,
+   # update each library version then ensure program still works as normal sequentially
+   npm install <package>@latest
+   ```
+
+### Updating of program requirements:
+```sh
+   # Clone GitHub repo
+   pip freeze > requirements.txt
+   ```
+
+
 
 ### `npm test`
 
